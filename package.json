@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-ci-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shafeek2112/nodejs-ci-cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shafeek2112/nodejs-ci-cd/issues"
+  },
+  "homepage": "https://github.com/shafeek2112/nodejs-ci-cd#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "supertest": "^6.1.3"
+  }
+}
